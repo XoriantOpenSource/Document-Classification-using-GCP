@@ -1,0 +1,16 @@
+ <div class="container">
+      <input type="file" 
+      file-model="myFile" name="myFile"
+       required 
+       (change)="selectFile($event)"/>
+  <button (click)="uploadFile()">Upload</button>
+  </div>
+  
+  <div>
+      <table border="1" cellpadding="10" cellspacing="5" style="width:100%;margin-top:20px;">
+          <tr *ngFor="let class of data">
+                  <td>{{class.Name}}</td>
+                  <td>{{class.Confidence}}</td>
+          </tr>
+      </table>
+  </div>   
