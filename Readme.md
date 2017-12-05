@@ -10,5 +10,6 @@ PREREQUISITES
 1. Sign up on Google Cloud Platform and enable Machine learning API for new/existing project.
 2. Create credentials to access this API. And download the json file of this credentials.
 3. Then set environment variable for GOOGLE_APPLICATION_CREDENTIALS using the command given below:
+    
     set GOOGLE_APPLICATION_CREDENTIALS="Path of json file"
     
